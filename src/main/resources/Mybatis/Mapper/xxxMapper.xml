@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    mapper标签：配置各种类型的sql语句的。
+    namespace：用来区分不同的映射文件中的sql语句的
+-->
+<mapper namespace="com.itClass.PureSSM.Mapper">
+    <!--
+        select标签：专门配置查询的sql语句的声明（statement）
+        id：该语句的唯一标识，一般用来被引用的，不能重复
+        resultType：结果集类型
+        parameterType:参数类型,不用配置
+    -->
+</mapper>
