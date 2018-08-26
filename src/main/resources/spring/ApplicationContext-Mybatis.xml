@@ -18,9 +18,9 @@
         <!--引入数据源-->
         <property name="dataSource" ref="dataSource"/>
         <!--指定mybatis配置文件-->
-        <property name="configLocation" value="classpath:Mybatis/Mybatis-config.xml"/>
+        <property name="configLocation" value="classpath:Mybatis/Mybatis.xml"/>
         <!--引入mapper.xml文件-->
-        <property name="mapperLocations" value="classpath:Mybatis/Mapper/**/*.xml"/>
+        <property name="mapperLocations" value="classpath:Mybatis/Mapper/*.xml"/>
         <!--Mybatis别名扫描,针对POJO对象-->
         <property name="typeAliasesPackage" value="com.itClass.PureSSM.POJO"/>
     </bean>
