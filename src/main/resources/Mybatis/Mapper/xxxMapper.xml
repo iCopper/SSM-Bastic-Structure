@@ -13,5 +13,6 @@
         id：该语句的唯一标识，一般用来被引用的，不能重复
         resultType：结果集类型
         parameterType:参数类型,不用配置
+
     -->
 </mapper>
